@@ -7,12 +7,12 @@ import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 export const DatePickerStyled = styled(DatePicker)`
   input {
     padding-left: 0px;
-    color: '#111111';
+    color: #111111;
   }
   input::placeholder {
     font-family: 'Inter';
     font-size: 14px;
-    color: '#111111';
+    color: #111111;
     font-weight: 600;
     opacity: 1;
   }
@@ -41,7 +41,7 @@ export const DatePickerStyled = styled(DatePicker)`
     border-radius: 8px;
 
     .MuiOutlinedInput-notchedOutline {
-      border: '1px solid rgba(17, 17, 17, 0.1)';
+      border: 1px solid rgba(17, 17, 17, 0.1);
     }
     &.Mui-focused .MuiOutlinedInput-notchedOutline {
       border: 1px solid #111111;
@@ -53,7 +53,7 @@ export const Container = styled.div`
   max-width: 375px;
   padding-bottom: 40px;
 
-  background-color: '#ffffff';
+  background-color: #ffffff;
 
   @media (min-width: 768px) {
     max-width: 100%;
@@ -74,7 +74,7 @@ export const FormContainer = styled.form`
   padding-bottom: 40px;
   padding-left: 18px;
   padding-right: 18px;
-  background-color: '#ffffff';
+  background-color: #ffffff;
   border-radius: 12px;
 
   @media (min-width: 768px) {
@@ -165,7 +165,7 @@ export const Heading = styled.div`
   font-family: 'Inter';
   font-weight: 700;
   font-size: 14px;
-  color: '#111111';
+  color: #111111;
   text-align: center;
 `;
 
@@ -173,8 +173,8 @@ export const Title = styled.div`
   margin-top: 4px;
   font-family: 'Inter';
   font-weight: 500;
-  font-size: '12px';
-  color: '#111111';
+  font-size: 12px;
+  color: #111111;
   text-align: center;
 `;
 
@@ -220,7 +220,7 @@ export const Input = styled.input`
   padding-right: 14px;
   outline: none;
 
-  border: '1px solid rgba(17, 17, 17, 0.1)';
+  border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 8px;
 
   font-family: 'Inter';
@@ -228,12 +228,12 @@ export const Input = styled.input`
   font-weight: 600;
   color: black;
 
-  color: '#111111';
+  color: #111111;
   background-color: transparent;
   &::placeholder {
     font-family: 'Inter';
     font-size: 14px;
-    color: '#111111';
+    color: #111111;
   }
   &:hover,
   &:focus {
@@ -271,7 +271,7 @@ export const Button = styled.button`
   font-size: 12px;
   text-align: center;
   color: #ffffff;
-  background-color: '#FFFFFF';
+  background-color: #ffffff;
   border-radius: 16px;
 
   border: 0;
